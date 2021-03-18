@@ -1,12 +1,17 @@
-p1 {
+#mainbox {
 	font-size: larger;
+	text-align: left;
 	font-family: "Cascadia Code";
 	background: greenyellow;
 	width: auto;
 	height: auto;
 	padding: 7px;
 	border: 3px solid #000;
-	color: rgb(255, 255, 255);
+	color: orangered;
+}
+
+#mainbox a:hover {
+	color: hotpink;
 }
 
 @keyframes image_slide {
@@ -19,10 +24,47 @@ p1 {
 }
 
 #sliding_image {
+	width: 500px;
 	animation-name: image_slide;
 	animation-duration: 1.5s;
 }
 
-#github_link:hover {
-	color: hotpink;
+#listbox {
+	font-size: larger;
+	font-family: "Cascadia Code";
+	background: orchid;
+	width: 700px;
+	height: auto;
+	padding: 7px;
+	border: 3px solid #000;
+	border-radius: 10px;
+	color: rgb(255, 255, 255);
+}
+
+#listbox a {
+	color: yellow;
+}
+
+#listbox a:hover {
+	color: red;
+}
+
+footer {
+	text-align: center;
+	font-size: larger;
+	font-family: "Cascadia Code";
+	background: rgb(104, 187, 187);
+	border: 3px solid #000;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+body {
+	background-repeat: round;
+	background-image: url("/images/wallpaper.jpg");
+	background-size: 2000px;
+}
+
+ul {
+	list-style-image: url("/images/greendot.png");
 }
